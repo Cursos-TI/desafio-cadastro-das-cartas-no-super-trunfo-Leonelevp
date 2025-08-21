@@ -4,7 +4,7 @@ int main(){ //Cidade 1 Sao Paulo
   char estado[50] = A;
   char codigo[4] = A01;
   char nome[50] = Sao Paulo;
-  int populacao = 12.325.000;
+  int populacao = 12325000;
   float area = 1521.11;               //Em km2
   float pib = 699.28;             // Em Bilhoes de reais
   int turist = 50;                 //Quantidade de Pontos Turisticos
