@@ -10,6 +10,7 @@ int main()
     float area; // Em km2
     float pib;   // Em Bilhoes de reais
     int turist;      // Quantidade de Pontos Turisticos
+    
 
 printf("Insira o Codigo da Cidade: \n");
 scanf("%s", codigo);
@@ -41,10 +42,11 @@ printf("Populacao: %d habitantes\n", populacao);
 printf("Area: %.2f Km2\n", area);
 printf("PIB: %.2f Bilhoes de Reais\n", pib);
 printf("Quantidade de Pontos Turisticos: %d\n", turist);
-
-
+printf("Densidade Populacional: %.2f h/Km2\n", populacao / area);
+printf("PIB per capta: %.2f reais\n", (pib * 1000000000) / populacao);
 
 // Cidade 2 Rio de Janeiro
+
     char estado2[50];
     char codigo2[4];
     char nome2[50];
@@ -83,6 +85,8 @@ printf("Populacao: %d habitantes\n", populacao2);
 printf("Area: %.2f Km2\n", area2);
 printf("PIB: %.2f Bilhoes de Reais\n", pib2);
 printf("Quantidade de Pontos Turisticos: %d\n", turist2);
+printf("Densidade Populacional: %.2f h/Km2\n", populacao2 / area2);
+printf("PIB per capta: %.2f reais\n", (pib2 * 1000000000) / populacao2);
 
 
 
@@ -94,10 +98,6 @@ printf("Quantidade de Pontos Turisticos: %d\n", turist2);
 
 
     return 0;
-
-
-
-
 
 
 
